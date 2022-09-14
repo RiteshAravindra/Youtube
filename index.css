@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+#navbar
+{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
+    height: 60px;
+
+}
+#leftFirst{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bar{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    margin-right: 20px;
+    cursor: pointer;
+}
+#bar:hover{
+   background-color: rgb(228, 225, 225);
+   border-radius: 50px;
+   padding: 10px;
+}
+#logo{
+    width: 120px;
+    height: 40px;
+    margin-left: 10px;
+}
+#middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#srchIcon{
+    height: 38px;
+    width: 50px;
+    border: 1px solid rgb(207, 207, 207);
+    border-left: 0;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    color: rgb(92, 91, 91);
+    
+}
+#voiceIcon{
+    margin-left: 15px;
+    font-size: 17px;
+    font-weight: lighter;
+    color: rgb(0, 0, 0);
+}
+#right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#right i{
+    font-size: 20px;
+}
+#acLogo{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+#navbar>div:nth-child(1)
+{
+   width: 14%;
+   height: 80%;
+}
+#navbar>div:nth-child(2)
+{
+    
+   width: 55%;
+   height: 80%;
+
+}
+#navbar>div:nth-child(3)
+{
+
+   width: 15%;
+   height: 80%;
+
+}
+#search{
+    width: 650px;
+    height: 37px;
+    padding-left: 10px;
+    font-family: 'Poppins';
+    font-weight: 900;
+    border: 1px solid  rgb(207, 207, 207);
+    text-align: left;
+    position: relative;
+}
+
+
+#result{
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    gap: 10;
+    margin-top: -27px;
+    width: 100%;
+    
+}
+#result div{
+    margin-top: 30px;
+    width: 100%;
+}
+#text{
+    font-size: 14px;
+}
+#video{
+    width: 85%;
+    height: 55%;
+}
+#searchDiv{
+    position: absolute;
+    width: 650px;
+    height: 400px;
+    margin-left: 300px;
+    background-color: white;
+    overflow-y: scroll;
+    display: none;
+    line-height: 25px;
+}
+#searchDiv>div{
+    
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: justify;
+    font-size: 12px;
+    font-weight: 600;
+    padding-left: 10px;
+    font-family: Arial;
+    
+
+}
+#searchDiv>div:hover{
+    background-color: rgb(199, 192, 192);
+    cursor: pointer;
+}
+
+#container{
+     display: flex;
+     justify-content: space-around;
+     width: 100%;
+     height: auto;
+}
+#leftFilter{
+    width: 18%;
+    position: relative;
+    cursor: pointer;
+}
+
+#smallDiv{
+    position: absolute;
+    left: 0;
+    margin-left: 10px;
+    display: none;
+    line-height: 45px;
+    cursor: pointer;
+}
+#smallDiv>div:hover{
+  background-color:rgb(226, 224, 224) ;
+}
+#smallDiv>div i{
+    font-size: 20px;
+}
+#smallDiv>div p{
+    font-size: 10px;
+    margin-top: -22px;
+    font-weight: 900;
+}
+#smallDiv>div:first-child{
+    margin-top: 10px;
+
+}
+#rightContainer{
+    width: 80%;
+}
+#impPoints{
+    
+    height: 45px;
+    border: 1px solid rgb(175, 175, 175);
+    display: flex;
+    border-left: 0;
+    border-right: 0;
+    align-items: center;
+    overflow: hidden;
+
+ 
+   
+}
+#impPoints>div{
+    background-color: #f0ecec;
+    border-radius: 15px;
+    margin-right: 5px;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    font-weight: 500;
+    padding: 5px 10px;
+    
+   
+}
+#impPoints>div:first-child{
+    background-color: black;
+    color: white;
+}
+#first
+{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid rgb(212, 202, 202);
+    line-height: 40px;
+}
+#first>div:hover{
+     background-color: rgb(219, 214, 214);
+}
+#first>div{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+#first>div p,i{
+    font-size: 14px;
+    color: rgb(44, 41, 41);
+    font-weight: 400;
+}
+#first>div i{
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 16px;
+}
+#home{
+    background-color: rgb(190, 183, 183);
+}
+
+#channel{
+    color: #585757;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 13px;
+}
