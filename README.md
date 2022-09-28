@@ -16,4 +16,4 @@ Have a look ⬇️
 **Deploying:** Netlify
 
 
-<img src="/Youtube/images/img1.png" alt="">
+<img src="/images/img1.png" alt="">
